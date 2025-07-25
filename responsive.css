@@ -1,0 +1,144 @@
+@media(max-width:1440px) {}
+
+@media(max-width:1280px) {}
+
+@media(max-width:1024px) {
+    .container {
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .img-box {
+        width: 150px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .skills ul li {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    em {
+        font-size: 11px;
+    }
+}
+
+@media(max-width:992px) {}
+
+@media(max-width:768px) {
+    .container {
+        display: block;
+        max-width: 600px;
+    }
+
+    .container-left,
+    .container-right {
+        width: 100%;
+    }
+
+    .container-left:hover h1,
+    .container-left:hover h2,
+    .container-right:hover h2,
+    .container-left:hover i,
+    .container-left:hover strong {
+        color: #b9ff76;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .container-left:hover a {
+        color: #0061c9;
+    }
+
+    .container-left:hover .img-box {
+        border: 4px solid #b9ff76;
+    }
+
+    .container-left:hover p {
+        color: #fff;
+    }
+
+    .container-left:hover hr,
+    .container-right:hover hr,
+    .container-right:hover .pro-hr {
+        border: 1px solid #b9ff76;
+    }
+
+    .container-left {
+        margin: 20px 0 20px 0;
+    }
+
+    .container {
+        background-color: unset;
+    }
+
+    .container .profile hr {
+        display: none;
+    }
+
+    .container .profile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .profile .item {
+        margin: 0;
+    }
+
+}
+
+@media(max-width:640px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media(max-width:480px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .container .profile {
+        display: block;
+    }
+
+    .container .profile hr {
+        display: block;
+    }
+
+    .profile .item {
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:414px) {
+    .container {
+        max-width: 350px;
+    }
+    em {
+        font-size: 9px;
+    }
+}
+
+@media(max-width:375px) {}
+
+@media(max-width:360px) {}
+
+@media(max-width:320px) {}
