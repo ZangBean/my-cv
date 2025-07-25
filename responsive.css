@@ -70,7 +70,8 @@
         border: 4px solid #b9ff76;
     }
 
-    .container-left:hover p {
+    .container-left:hover p,
+    .container-right:hover em {
         color: #fff;
     }
 
@@ -132,6 +133,7 @@
     .container {
         max-width: 350px;
     }
+
     em {
         font-size: 9px;
     }
